@@ -1,0 +1,21 @@
+{
+    "name": "nithish/medibook",
+    "description": "MediBook - Doctor appointment booking platform",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nithish\\Medibook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nithish6969",
+            "email": "nithishdevarajulu@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^7.1",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
